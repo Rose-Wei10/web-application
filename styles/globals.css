@@ -11,6 +11,89 @@ a {
   text-decoration: none;
 }
 
-* {
+/* * {
   box-sizing: border-box;
+} */
+/* styles.css */
+
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 0rem -2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1, header h2 {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+main {
+  padding: 5rem 2rem 2rem; /* Adjust padding to avoid content being hidden behind the fixed header */
+  background-color: #fff;
+  max-width: 100%;
+  margin: 2rem auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+button {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+div {
+  margin-bottom: 1.5rem;
+}
+
+.UserButton {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
